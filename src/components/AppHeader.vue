@@ -92,6 +92,7 @@ header {
   margin: 0 auto;
   background-color: white;
   padding-top: 20px;
+  padding-bottom: 20px;
 
   nav {
 
@@ -110,7 +111,7 @@ header {
           color: $primary-color;
           font-size: 1rem;
           font-weight: bold;
-          padding-bottom: 30px;
+          padding-bottom: 47px;
 
           &:hover {
             color: $accent-color;

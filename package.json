@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/pt-sans-narrow": "^5.0.19",
     "vue": "^3.3.11"
   },
   "devDependencies": {

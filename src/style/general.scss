@@ -8,5 +8,10 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.active {
+    color: $accent-color;
+    border-bottom: 5px solid $accent-color;
 }

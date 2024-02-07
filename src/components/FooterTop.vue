@@ -47,7 +47,7 @@ export default {
         <div>
             <ul>
                 <li v-for=" (element, index) in ArrayIconLinks" :key="index">
-                    <img :src="`./src/assets/img/${element.icon}`" alt="" :width="element.width">
+                    <img :src="`./src/assets/img/${element.icon}`" alt="Service icon" :width="element.width">
                     <a href="element.link">{{ element.name }}</a>
                 </li>
             </ul>

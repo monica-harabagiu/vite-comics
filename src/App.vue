@@ -2,7 +2,8 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import FooterTop from './components/FooterTop.vue';
-import FooterMain from './components/FooterMain.vue'
+import FooterMain from './components/FooterMain.vue';
+import FooterBottom from './components/FooterBottom.vue';
 import '@fontsource/pt-sans-narrow';
 
 export default {
@@ -10,7 +11,8 @@ export default {
     AppHeader,
     AppMain,
     FooterTop,
-    FooterMain
+    FooterMain,
+    FooterBottom
   }
 }
 </script>
@@ -20,6 +22,7 @@ export default {
   <AppMain />
   <FooterTop />
   <FooterMain/>
+  <FooterBottom/>
 </template>
 
 <style lang="scss">

@@ -110,7 +110,7 @@ header {
           text-transform: uppercase;
           color: $primary-color;
           font-size: 1rem;
-          font-weight: bold;
+          font-weight: 700;
           padding-bottom: 47px;
 
           &:hover {
